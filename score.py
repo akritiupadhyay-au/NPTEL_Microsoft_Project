@@ -12,7 +12,7 @@ import numpy as np
 
 def init():
     global model
-    model_path = os.path.join(os.getenv('Users/akritiupadhyay'), 'gold_price_model.pkl')
+    model_path = os.path.join(os.getenv('akritiupadhyay-env'), 'gold_price_model.pkl')
     model = joblib.load(model_path)
 
 def run(raw_data):
