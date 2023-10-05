@@ -2,10 +2,13 @@
 <html>
 <head>
     <title>Gold Price Prediction</title>
-    <author> Akriti Upadhyay </author>
+    
     <style>
         body {
-            background-color:#dbe9c8;  /* Replace with your preferred color */
+            background-color:#dbe9c8; 
+        }
+        h1 {
+            font-family: Arial, sans-serif;  
         }
         .tab {
             display: none;
@@ -15,6 +18,7 @@
             padding: 10px;
             border: none;
             cursor: pointer;
+            font-family: Verdana, sans-serif;  
         }
         .tab-button.active {
             background-color: #8c8c00;
@@ -22,14 +26,15 @@
     </style>
 </head>
 <body>
-    <h1>Gold Price Prediction</h1>
-
+    <img src="gold.jpg" alt="Heading Image">  
+    <h1>Welcome!</h1>
+    <p>Investment in Gold is one of the best investments among other financial investments. What if, we know the forecasted trend of next 6 months! Isn't that interesting? World Gold Council provides the historical data from 1978 to till data. The World Gold Council measures the gold price in national currency unit per troy ounce. 1 troy ounce = 31.1 gms. Select any country to see the forecasted trend of gold price for next 6 months.</p>  
     <div id="tab-buttons">
-        <!-- Tab buttons will be added here -->
+        
     </div>
 
     <div id="tabs">
-        <!-- Tabs will be added here -->
+        
     </div>
 
     <script>
@@ -39,39 +44,39 @@
         var tabs = [];
         var tabButtons = [];
         for (var i = 0; i < tabNames.length; i++) {
-            // Create a new tab button
+            
             var button = document.createElement("button");
             button.textContent = tabNames[i];
             button.className = "tab-button";
             document.getElementById("tab-buttons").appendChild(button);
             tabButtons.push(button);
 
-            // Create a new tab
+           
             var tab = document.createElement("div");
             tab.className = "tab";
             var img = document.createElement("img");
-            img.src = imageSources[i];  // Replace with your image source
+            img.src = imageSources[i]; 
             tab.appendChild(img);
             document.getElementById("tabs").appendChild(tab);
             tabs.push(tab);
         }
 
-        // Add click event listeners to the tab buttons
+       
         for (let i = 0; i < tabButtons.length; i++) {
             tabButtons[i].addEventListener("click", function() {
-                // Hide all tabs
+                
                 for (var j = 0; j < tabs.length; j++) {
                     tabs[j].style.display = "none";
                     tabButtons[j].className = "tab-button";
                 }
 
-                // Show the clicked tab
+               
                 tabs[i].style.display = "block";
                 tabButtons[i].className += " active";
             });
         }
 
-        // Show the first tab by default
+        
         tabs[0].style.display = "block";
         tabButtons[0].className += " active";
     </script>
