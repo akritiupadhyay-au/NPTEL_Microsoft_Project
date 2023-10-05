@@ -12,3 +12,7 @@ You can see how gold prices vary differently in different countries every year. 
 ## Forecasting using FB Prophet
 
 Prophet has the ability to produce accurate forecasts with minimal effort. It decomposes a time series into three main components: trend, seasonality, and holidays. It automatically detects and handles various types of seasonal patterns, such as daily, weekly, monthly, and yearly seasonality. It can also handle irregular seasonalities.
+
+### Output
+
+The output of this implementation can be seen on the website which is made by using [Azure Static Web Apps](https://kind-pond-05f8bb410.3.azurestaticapps.net/)
