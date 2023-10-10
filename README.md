@@ -18,7 +18,7 @@ You can see how gold prices vary differently in different countries every year. 
       (i)   Data cleaning
       (ii)  Model Selection
       (iii) Time Series Forecasting  
-4. Static Web Apps: I wrote an index.html file for my website, where I used the resulted forecasted plots for 6 months. I created static web app on azure and deployed using github. After deploying, I got the link of my output, and the workflow .yaml file.
+4. Static Web Apps: I wrote an [index.html](Images/index.html) file for my website, where I used the resulted forecasted plots for 6 months. I created static web app on azure and deployed using github. After deploying, I got the link of my output, and the workflow .yaml file.
 
 ## Data Cleaning
 1. The data that I collected from [World Gold Council](https://www.gold.org/goldhub/data/gold-prices) has all the prices in object data types.
