@@ -11,14 +11,14 @@ You can see how gold prices vary differently in different countries every year. 
 
 ## Azure Services Used
 
-1. Azure Machine Learning Studio:
+1. **Azure Machine Learning Studio**:
      I made a compute instance for the fast processing of my codes.
-2. Visual Studio Code:
+2. **Visual Studio Code**:
      The following processes I performed in the VS Code:
       (i)   Data cleaning
       (ii)  Model Selection
       (iii) Time Series Forecasting  
-4. Static Web Apps: I wrote an [index.html](Images/index.html) file for my website, where I used the resulted forecasted plots for 6 months. I created static web app on azure and deployed using github. After deploying, I got the link of my output, and the workflow .yaml file.
+3. **Static Web Apps**: I wrote an [index.html](Images/index.html) file for my website, where I used the resulted forecasted plots for 6 months. I created static web app on azure and deployed using github. After deploying, I got the link of my output, and the workflow .yaml file.
 
 ## Data Cleaning
 1. The data that I collected from [World Gold Council](https://www.gold.org/goldhub/data/gold-prices) has all the prices in object data types.
@@ -35,7 +35,7 @@ I have used the following machine learning algorithms while selecting the model:
 4. XG Boost Regressor
 5. Light GBM Regressor
 
-After comparing all the models, Random Forest Regressor did the best with best training and testing accuracy, and there were no overfitting issues. The evaluation metric was r2 score. The training score was 0.99964 and the testing score was 0.997337. 
+After comparing all the models, **Random Forest Regressor** did the best with best training and testing accuracy, and there were no overfitting issues. The evaluation metric was **r2 score**. The **training score** was **0.99964** and the **testing score** was **0.997337**. 
 
 ## Forecasting using FB Prophet
 
