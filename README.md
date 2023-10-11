@@ -10,15 +10,21 @@ Here, I have forecasted gold prices for next 6 months using World Gold Council d
 You can see how gold prices vary differently in different countries every year. The trend of gold price is irregular over all years. This gold price dataset is taken from world gold council and measured in national currency unit per troy ounce. 1 troy ounce is equal to the weight of the gold = 31.1 grams. This dataset contains all the currencies of the world.
 
 ## Azure Services Used
+ <center><img src ="https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-ai/0.37.2023100909/1696843434483/Microsoft.VisualStudio.Services.Icons.Default" height = "50" /></center> 
+ 
+1.  **Azure Machine Learning Studio**: I made a compute instance for the fast processing of my codes.
 
-1. **Azure Machine Learning Studio**:
-     I made a compute instance for the fast processing of my codes.
-2. **Visual Studio Code**:
+ <center><img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png" height = "50" /></center> 
+   
+2.  **Visual Studio Code**: 
      The following processes I performed in the VS Code:
       (i)   Data cleaning
       (ii)  Model Selection
-      (iii) Time Series Forecasting  
-3. **Static Web Apps**: I wrote an [index.html](Images/index.html) file for my website, where I used the resulted forecasted plots for 6 months. I created static web app on azure and deployed using github. After deploying, I got the link of my output, and the workflow .yaml file.
+      (iii) Time Series Forecasting
+
+<center><img src ="https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azurestaticwebapps/0.12.2/1687996306718/Microsoft.VisualStudio.Services.Icons.Default" height = "50" /></center>
+    
+4. **Static Web Apps**: I wrote an [index.html](Images/index.html) file for my website, where I used the resulted forecasted plots for 6 months. I created static web app on azure and deployed using github. After deploying, I got the link of my output, and the workflow .yaml file.
 
 ## Data Cleaning
 1. The data that I collected from [World Gold Council](https://www.gold.org/goldhub/data/gold-prices) has all the prices in object data types.
