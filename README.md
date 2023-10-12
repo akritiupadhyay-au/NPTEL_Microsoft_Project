@@ -8,7 +8,8 @@ This is a project assigned from Future Ready Talent sponsored by Microsoft and N
 Here, I have forecasted gold prices for next 6 months using World Gold Council data for 19 different countries.
 ## Data collection
 <img src="Screenshots of Project/Data Collection.png" width="500">
-The main notebook in which I have done data cleaning and model selection is [Indian Gold Price Prediction notebook](https://github.com/akritiupadhyay-au/NPTEL_Microsoft_Project/blob/main/Notebooks/IndianGoldPricePrediction.ipynb).
+
+The main notebook in which I have done data cleaning and model selection is [IndianGoldPricePrediction.ipynb](Notebooks/IndianGoldPricePrediction.ipynb).
 
 You can see how gold prices vary differently in different countries every year. The trend of gold price is irregular over all years. This gold price dataset is taken from world gold council and measured in national currency unit per troy ounce. 1 troy ounce is equal to the weight of the gold = 31.1 grams. This dataset contains all the currencies of the world.
 
